@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   
+.stat {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	font-style:italic;
+	float:right;
+}
+.icon {
+	float:left;
+}
+.col-lg-4 h3, p {
+	text-align:center;
+}
+.row h2 {
+	text-align:center;
+}
+.form label {
+	text-align: left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:medium;
+}
+.form input {
+	display: block;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.logo {
+	float:left;
+}
+.privacy p {
+	text-align:left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+.succ {
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#060;
+}
+.data1 {
+	font-size: 15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:left;
+}
+.data1 a {
+	font-size:18px;
+	font-style: italic;
+}
+hr {
+	color:#F00;
+}
+.view_data {
+	font-size: 15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:left;
+}
+.view_data u {
+	font-size:20px;
+}
+	
