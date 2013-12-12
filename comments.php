@@ -41,7 +41,6 @@
                             <li><a href="contact.php">Contact</a></li>
                             <li><a href="signup.php">Sign up</a></li>
                             <li><a href="blogs.php">Blogs</a></li>
-                            <li class="active"><a href="c_blogs.php">Create Blogs</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -68,7 +67,7 @@
 			
 			if (!isset($_SESSION['user_id'])) //checking if user is login or not if not he/she can't access this page.
 			{
-				echo 'Please <a href="index.php">log in</a> to comment any blog.';
+				header("location:http://webdesign4.georgianc.on.ca/~200247801/NBblogging/signup.php");
 				exit();
 			}
 			if (!empty($comment) && !empty($user_name))

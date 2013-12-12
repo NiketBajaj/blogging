@@ -93,7 +93,6 @@
                         <li><a href="contact.php">Contact</a></li>
                         <li><a href="signup.php">Sign up</a></li>
                         <li><a href="blogs.php">Blogs</a></li>
-                        <li><a href="c_blogs.php">Create Blogs</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                             <ul class="dropdown-menu">

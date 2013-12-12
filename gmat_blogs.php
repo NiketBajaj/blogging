@@ -42,7 +42,6 @@
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="signup.php">Sign up</a></li>
                     <li class="active"><a href="blogs.php">Blogs</a></li>
-                    <li><a href="c_blogs.php">Create Blogs</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -69,6 +68,8 @@
 					$data = mysqli_query($dbc, $query);
 					if (isset($_SESSION['user_id']))
 					{
+						echo '<button type="submit" class="btn btn-success" name="submit" onclick="window.location.href=\'http://webdesign4.georgianc.on.ca/~200247801/NBblogging/c_blogs.php\'" >Create Blogs</button>';
+						echo '&nbsp;&nbsp;&nbsp;';
 						echo '<button type="submit" class="btn btn-success" name="submit" onclick="window.location.href=\'http://webdesign4.georgianc.on.ca/~200247801/NBblogging/yourprofile.php\'" >View Profile</button>';
 						echo '&nbsp;&nbsp;&nbsp;';
 						echo '<button type="submit" class="btn btn-success" name="submit" onclick="window.location.href=\'http://webdesign4.georgianc.on.ca/~200247801/NBblogging/editprofile.php\'">Edit Profile</button>';
